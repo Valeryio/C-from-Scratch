@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	char *source = "The source !", *destination;
+	char source[length] = "The source !", destination[length];
 
 	printf("That is the source : %s \n and the destination : %s\n\n", source, destination);
 
