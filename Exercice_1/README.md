@@ -6,7 +6,7 @@
 
 **DESCRIPTION**
 
-That's a program that create an arraay with some special value
+That's a program that create an arraay with some special value.
 They are given by the user. After that, we have to sort this array with
 a particuliar method. 
 We compare the first element of the array with the element at the place 
