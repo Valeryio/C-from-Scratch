@@ -4,10 +4,12 @@
 
 ***I've learned that pointers are very easy to use if you take care of 
 what you are doing with. I've created an array of pointers that points towards 
-strings. And I made some manipulation on that structure of data. That was very 
+strings... 
+And I made some manipulation on that data structure. That was very 
 fun, and I learned a lot of things that I cannot dump here. But, trust me, it was fun.
-My programs don't actually free the memory after using pointers, but I'll learn it in 
-the following days!***
+
+**My programs don't actually free the memory after using pointers, but I'll learn it in 
+the following days!** ('-')***
 
 
 > If there's something you wanna do, just DO IT. Don't let your HEAD stop your HEART from moving...
