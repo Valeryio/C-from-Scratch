@@ -1,4 +1,4 @@
-##EXERCICE 4
+## EXERCICE 4
 
 ### PRINCIPAL Lesson Learned :
 
@@ -9,7 +9,9 @@ fun, and I learned a lot of things that I cannot dump here. But, trust me, it wa
 My programs don't actually free the memory after using pointers, but I'll learn it in 
 the following days!***
 
-> If there's something you wanna do, just DO IT. Don't let your HEAD stop your heart from moving...
+
+> If there's something you wanna do, just DO IT. Don't let your HEAD stop your HEART from moving...
+
 
 ### DESCRIPTION
 
