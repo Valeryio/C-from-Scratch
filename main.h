@@ -4,6 +4,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 
 void print_Int_Array(int *Array, int);
 
@@ -26,5 +28,13 @@ void gather_lang(char *l_1[], char *l_2[]);
 void remove_word(char*, char *language[]);
 
 int is_letter(void *ptr);
+
+char* enter_str(void);
+
+int str_weigth(char*);
+
+void to_lower(char*);
+
+void str_replace(char*, char, char);
 
 #endif
