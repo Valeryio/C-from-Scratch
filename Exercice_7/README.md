@@ -13,9 +13,11 @@ THREE DAYS to debug my code, understand my mistakes and learn some fantastic and
 > If there's something you wanna do, just DO IT. Don't let your HEAD stop your HEART from moving...
 
 
-### DESCRIPTION
+## DESCRIPTION
 
 ***I wrote an algorithm to concatenate two text files in another. Simple! Right ?***
+
+
 
 ### 1 - FILE MANAGEMENT Is Not The SAME ON ALL THE OS
 
@@ -41,11 +43,14 @@ With Three new lines!`
 **If you run the code file_length for LINUX_OS (it's on the main file of the project 8), you will get
 48 characters instead fof 45.**
 
-				**WHY ?**
+**WHY ?**
 
 ***We have three new line characters '\n' who are considered as two different characters by windows '\r\n', so it will add three additionnal Char ! That is all.***
 
 > Be careful and be Wise!
+
+
+
 
 
 
@@ -67,9 +72,15 @@ letter, you loop will just iterate it, and if you use that condition to count th
 
 
 
+
+
+
 #### 3 - LEARN TO KNOW WHAT FUNCTIONS REALLY DO WHEN YOU MANIPULATE FILES
 
 **If there is one skill I get here, in file manipulation, is to really understand the functions of C programming language I'm using. When you use a function, please, make sure you understand the most what it's doing on background on you data structure. 
+
+
+
 
 
 
@@ -78,8 +89,13 @@ letter, you loop will just iterate it, and if you use that condition to count th
 **Some times the result works, and another times no. WHY ????
 That's not possible, it's not magic, just try to understand the code.**
 
+
+
+
+
 ## Never free the memory of the pointers you used to write in a file, before closing this one!
 ***The string will never be wrote in the file**
+
 
 
 
