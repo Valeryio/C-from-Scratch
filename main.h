@@ -5,8 +5,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <errno.h>
 
 
+/*FUNCTIONS ON ARRAY OF STRING*/
+
+/*What we call a language here is a set of strings
+in the same array. These data structure is created
+using an array of pointers. Then you can perform all
+this kind of operations allowd by the functions I wrote here !
+
+Enjoy !
+*/
 void print_Int_Array(int *Array, int);
 
 void mirror(char*, char*);
@@ -17,8 +27,6 @@ void show_language(char *language[]);
 
 int element_of(char *word, char *language[]);
 
-int same_word(char*, char *w_2);
-
 int is_disjoint(char *l_1[], char *l_2[]);
 
 int add_word(char*, char *language[]);
@@ -26,6 +34,33 @@ int add_word(char*, char *language[]);
 void gather_lang(char *l_1[], char *l_2[]);
 
 void remove_word(char*, char *language[]);
+
+
+
+/*FUNCTIONS TO MANIPULATE STRINGS*/
+
+/*In the string.h library we have some essential
+and indispensable function to manipulate strings.
+Before using them all time, like I want without 
+worrying to much to know if I'm capable of rewrite
+these functions..
+
+I decided to write some beautiful functions of string.h
+here.
+You can use all of them !
+
+Enjoy !
+*/
+
+int same_string(char*, char*);
+
+char* Cesar_ciphering(char*, int, char*);
+
+char* Cesar_deciphering(char*, int, char*);
+
+int Cesar_text_ciphering_checker(char*, int, char*);
+
+int Cesar_text_deciphering_checker(char*, int, char*);
 
 int is_letter(void *ptr);
 
@@ -36,5 +71,30 @@ int str_weigth(char*);
 void to_lower(char*);
 
 void str_replace(char*, char, char);
+
+
+
+
+/*FUNCTIONS TO MANIPULATE FILES*/
+
+/*Stdlib have some function to manipulate files
+but in some case, I need to create my own to do
+specific task and manipulate files.
+
+Here you are these functions.
+
+Enjoy !
+*/
+int file_concat(FILE*, FILE*, FILE*); /*Still not working with long strings!*/
+
+int file_to_string(FILE*, char*);
+
+int file_length_LINUX_OS(FILE*);
+
+int file_length_WINDOWS_OS(FILE*);
+
+int cipher_file(char*, char*, int);
+
+int decipher_file(char*, char*, int);
 
 #endif

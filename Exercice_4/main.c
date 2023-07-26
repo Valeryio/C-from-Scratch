@@ -26,7 +26,7 @@ void show_language(char *language[])
 
 
 /**
- * same_word - verify if two words are the same
+ * same_string - verify if two words are the same
  * @w1: a first word
  * @w2: a second word
  *
@@ -35,7 +35,7 @@ void show_language(char *language[])
  * Return: 1 if the word are the same and 0 otherwise!
  */
 
-int same_word(char *w_1, char *w_2)
+int same_string(char *w_1, char *w_2)
 {
 	int i = 0, checker = 0;
 
@@ -76,7 +76,7 @@ int element_of(char *word, char* language[])
 
 	while (language[i] != NULL)
 	{
-		if (same_word(word, language[i]))
+		if (same_string(word, language[i]))
 		{
 			return (1 + i);
 		}
@@ -243,7 +243,7 @@ void remove_word(char *word, char *language[])
 {
 	int i = 0;
 
-	while (!same_word(word, language[i]))
+	while (!same_string(word, language[i]))
 	{
 		i++;
 	}
