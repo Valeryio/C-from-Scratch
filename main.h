@@ -6,6 +6,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+/*
+ * #include "Exercice_9/struct.h"
+#include "Exercice_11/struct.h"*/
+
+#include "Exercice_12/struct.h"
 
 
 /*FUNCTIONS ON ARRAY OF STRING*/
@@ -96,5 +101,37 @@ int file_length_WINDOWS_OS(FILE*);
 int cipher_file(char*, char*, int);
 
 int decipher_file(char*, char*, int);
+
+
+
+
+
+/*FUNCTIONS TO MANIPULATE THE DATA STRUCTURE LETTER*/
+/*
+ letter is a data structure composed by a char and a letter
+ that is the sum of the occurence of the char in a text
+ */
+
+int init_alphabet(letter*, char);
+
+
+/*FUNCTION TO MANIPULATE A LIST*/
+
+List *create_list(void);
+List *list_add_element(int, List*);
+int show_list(List*);
+int remove_from_list(int, List*);
+int delete_list(List*);
+int search_value(int value, List *list_x);
+int list_length(List*);
+int insert_element(int, Element*, List*);
+
+
+
+/*FUNCTIONS TO MANIPULATE A file DATA STRUCTURE*/
+void enfile(Element*, File_*);
+int defile(File_*);
+void show_file(File_*);
+
 
 #endif
