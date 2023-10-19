@@ -7,7 +7,7 @@
 
 ### DESCRIPTION
 
-***I wrote an algorithm to cipher a file and copy the cipher in another file. ***
+**I wrote an algorithm to cipher a file and copy the cipher in another file.**
 **I've used the same function that I wrote in the last repo, but I spent time on 
 some bugs.**
 
