@@ -11,7 +11,7 @@
  * to an existing stack.
  * Return: Nothing
  */
-void push(stack_t **head, unsigned int n)
+void push(stack_t **head, int n)
 {
 	stack_t *newnode = NULL;
 

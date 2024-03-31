@@ -10,15 +10,17 @@
  * node inside a stack
  * Return: nothing
  */
-void pall(stack_t **head, unsigned int n)
+void pall(stack_t **head)
 {
 	stack_t *tmpnode = NULL;
 
-	n = n - 1;
 	tmpnode = (*head);
 	while (tmpnode != NULL)
 	{
-		printf("%d\n", tmpnode->n);
+		printf("%d", tmpnode->n);
+
+		if(tmpnode->next != NULL)
+			printf("\n", tmpnode->n);
 		tmpnode = tmpnode->next;
 	}
 }

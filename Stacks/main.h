@@ -28,6 +28,6 @@ typedef struct stack
 void pop(stack_t**);
 int is_empty(stack_t**);
 void push(stack_t**, int);
-
+void pall(stack_t**);
 
 #endif
